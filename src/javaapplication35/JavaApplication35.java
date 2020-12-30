@@ -62,7 +62,7 @@ static int LRU(ArrayList<Integer> pages,int capacity,int n){
        }   
     return (pagefault); 
    }
-static int First_in_First_Out(ArrayList<Integer> pages, int n, int capacity) 
+static int First_in_First_Out(ArrayList<Integer> pages, int capacity, int n) 
     { 
         Queue<Integer> index = new LinkedList<>() ; 
         ArrayList<Integer> Ar = new ArrayList<Integer>(capacity);
