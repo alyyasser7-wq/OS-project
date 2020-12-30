@@ -225,5 +225,5 @@ static int First_in_First_Out(ArrayList<Integer> pages, int n, int capacity)
         System.out.println("LRU:");
         System.out.println(LRU(Ar, frame, Ar.size()));
        }
-       //////
+      
 }}
